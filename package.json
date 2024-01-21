@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node ./api/index.ts",
+    "build": "tsc",
+    "dev": "nodemon ./api/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node ./dist/index.js"
+  },
+  "author": "Mandeep Singh",
+  "license": "MIT",
+  "keywords": [],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.16",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.9.0",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^5.2.2"
+  }
+}
